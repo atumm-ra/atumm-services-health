@@ -3,7 +3,7 @@ from typing import AsyncIterator
 
 import httpx
 import pytest
-from atumm.atumm.extensions.config import Config
+from atumm.extensions.config import Config
 from atumm.extensions.fastapi.base import TestWebApp
 from atumm.services.health.entrypoints.rest.health.routers import health_router
 from fastapi.applications import FastAPI
